@@ -6,7 +6,7 @@ import java.util.concurrent.LinkedBlockingQueue
 import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
 
-@Singleton
+@Singleton(strict=false)
 @Log4j
 class ClosureCache {
 
